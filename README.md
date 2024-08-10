@@ -1,1 +1,3 @@
 # LabBot
+
+Discord bot
