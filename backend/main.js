@@ -86,32 +86,6 @@ client.on('messageCreate', msg => {
     databaseHandler.initPlayerCollection()
   } else if (msg.content === '!addData') {
     databaseHandler.insertData()
-  } else if (msg.content === '!createEvent') {
-    // TODO:
-  } else if (msg.content === '!event') {
-    // TODO:
-  } else if (msg.content.startsWith('Name = ') ||
-               msg.content.startsWith('Date = ') ||
-               msg.content.startsWith('Time = ') ||
-               msg.content.startsWith('Restaurant = ') ||
-               msg.content.startsWith('Activity = ')) {
-    // TODO:
-  } else if (msg.content === '!initialise') {
-    // TODO:
-  } else if (msg.content.startsWith('!addPlayer')) {
-    // TODO:
-  } else if (msg.content.startsWith('!getPlayer')) {
-    // TODO:
-  } else if (msg.content.startsWith('!getTeam')) {
-    // TODO:
-  } else if (msg.content.startsWith('!gameResult')) {
-    // TODO:
-  } else if (msg.content.startsWith('!winrate')) {
-    // TODO:
-  } else if (msg.content === '!bestTeam') {
-    // TODO:
-  } else if (msg.content === '!worstTeam') {
-    // TODO:
   }
 })
 
